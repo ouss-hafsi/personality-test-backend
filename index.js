@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req,res) => {
-    res.redirect('/api/results')
+    res.redirect('/results/results')
 })
 
 // Routes
